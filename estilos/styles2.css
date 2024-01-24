@@ -1,0 +1,117 @@
+/* Estilos generales para el cuerpo del documento */
+body {
+    font-family: 'Raleway', 'Lato', Arial, Helvetica, sans-serif;
+    font-size: 0.875em;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    background: #00ADEE;
+    line-height: 140%;
+    text-align: center;
+}
+
+/* Contenedor principal con ancho máximo, centrado y sombra */
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+/* Envoltura del contenido con fondo blanco, borde superior amarillo y márgenes */
+.content-wrap {
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    background: #fff;
+    border-top: 22px solid #FFEB00;
+    padding: 20px;
+    margin-top: 55px;
+    border-radius: 10px;
+}
+
+/* Estilos para el encabezado */
+header {
+    margin-bottom: 20px;
+}
+
+/* Estilos para encabezados h1 */
+h1 {
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #041014;
+}
+
+/* Estilos para encabezados h2 */
+h2 {
+    font-family: 'Raleway', 'Lato', Arial, Helvetica, sans-serif;
+    margin-bottom: 0.5em;
+    line-height: 1em;
+    font-weight: 800;
+    color: #041014; 
+}
+
+/* Estilos para etiquetas de formulario */
+label {
+    display: block;
+    margin-bottom: 5px; 
+    color: #041014;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Estilos para select e input en formularios */
+select,
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+/* Enlace de inicio de sesión con estilo */
+.login-link {
+    color: #F08600;
+    text-decoration: none;
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Estilos para botón de envío en formularios */
+input[type="submit"] {
+    background-color: #fbeb04;
+    font-weight: 600;
+    color: #041014;
+    cursor: pointer;
+}
+
+/* Cambio de color al pasar el ratón sobre el botón de envío */
+input[type="submit"]:hover {
+    background-color: #F08600;
+}
+
+/* Estilos para mensajes de error en rojo */
+.error-message {
+    color: red;
+}
+
+/* Estilos para mensajes de éxito en verde */
+.success-message {
+    color: green;
+}
+
+/* Botón de volver con estilo */
+.volver-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #F08600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Cambio de color al pasar el ratón sobre el botón de volver */
+.volver-button:hover {
+    background-color: #D17000;
+}
